@@ -1,5 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Play);
-@import url(http://fonts.googleapis.com/css?family=Monoton);
+/* @import url(http://fonts.googleapis.com/css?family=Play);
+@import url(http://fonts.googleapis.com/css?family=Monoton); */
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
 
 /* Reset CSS */
 *{margin: 0; padding: 0;}
@@ -56,7 +57,7 @@ header{width: 700px; height: 100%; position: fixed; top: 0px; left: -420px; back
 
 /* 웹폰트 텍스트박스 */
 .txtBox { width:700px; height:280px; position:fixed; top:130px; right:70px; }
-.txt { position:absolute; top:200px; right:0px; font-size:70px; font-family:'Monoton', cursive; color:#ffffff; letter-spacing:1px;}
+.txt { position:absolute; top:300px; right:90px; font-size:100px; font-family: "Bagel Fat One", system-ui, cursive; color:#ffffff; letter-spacing:1px;}
     /* letter-spacing 자간 */
     /* line-hdight 줄간격 */
 
@@ -80,9 +81,9 @@ header{width: 700px; height: 100%; position: fixed; top: 0px; left: -420px; back
 
 
 /* 자동롤링 버튼 */
-#side .btnContents{width: 150px; height: 50px; position: absolute; bottom: 40px; left: 100px; color: #ffffff; transform: skewX(40deg);}
+#side .btnContents{width: 150px; height: 50px; position: absolute; bottom: 40px; left: 120px; color: #ffffff; transform: skewX(40deg);}
 #side:hover .btnContents{left: 700px;}
-.btnContents i{font-size: 60px; position: absolute; bottom: 0px; right: 0px; opacity: 1;}
+.btnContents i{font-size: 60px; position: absolute; bottom: 0px; right: 10px; opacity: 1;}
     /* 아이콘 3개 위치 똑같이 지정해서 겹쳐놓음 */
 .btnContents i:nth-child(1){animation: ani linear 1.5s 0s infinite;}
 .btnContents i:nth-child(2){animation: ani linear 1.5s 0.5s infinite;}
