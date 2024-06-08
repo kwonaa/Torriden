@@ -56,8 +56,8 @@ header{width: 700px; height: 100%; position: fixed; top: 0px; left: -420px; back
 
 
 /* 웹폰트 텍스트박스 */
-.txtBox { width:700px; height:280px; position:fixed; top:130px; right:70px; }
-.txt { position:absolute; top:300px; right:90px; font-size:100px; font-family: "Bagel Fat One", system-ui, cursive; color:#ffffff; letter-spacing:1px;}
+.txtBox { width:700px; height:280px; position:relative; top:50%; left:45%;}
+.txt { position:absolute; font-size:5em; font-family: "Bagel Fat One", system-ui, cursive; color:#ffffff; letter-spacing:1px;}
     /* letter-spacing 자간 */
     /* line-hdight 줄간격 */
 
@@ -81,7 +81,7 @@ header{width: 700px; height: 100%; position: fixed; top: 0px; left: -420px; back
 
 
 /* 자동롤링 버튼 */
-#side .btnContents{width: 150px; height: 50px; position: absolute; bottom: 40px; left: 120px; color: #ffffff; transform: skewX(40deg);}
+#side .btnContents{width: 150px; height: 50px; position: absolute; bottom: 40px; right: 75%; color: #ffffff; transform: skewX(40deg);}
 #side:hover .btnContents{left: 700px;}
 .btnContents i{font-size: 60px; position: absolute; bottom: 0px; right: 10px; opacity: 1;}
     /* 아이콘 3개 위치 똑같이 지정해서 겹쳐놓음 */
